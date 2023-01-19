@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>About Me</title>
 <style>
-body{
+body
+{
 text-align: inherit;
 }
 .container{
 
 display: flex;
 flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 img {
 margin-top: 2px;
@@ -45,27 +49,18 @@ padding: 20px;
 border: 2px solid white;
 width: 500px;
 height: 800px;
-color: darkgray;
-background-image: url("image/tu.jpg");
-background-position: right;
+background-color: #0A2653;
+color: white;
 }
 
 .a
 {
-color: grey;
 margin-left: 20px;
 font-size: 22px;
 }
-h1
-{
-    color: darkgray;
-}
 h1:hover a
 {
-    color: #C70039;
-}
-a{
-    color: darkgray;
+    color: #D52437;
 }
 div
 {
@@ -79,16 +74,38 @@ h3:hover
 {
     color: #D52437;
 }
-td
+table tr td
 {
-    padding: 5px;
+    padding-right: 20px;
 }
-ul
+h1
 {
-    color:#D52437;
-   /* text-shadow: 2px 2px 2px blue;*/
+    color: white;
+    text-decoration: 2px 2px 5px red;
 }
-
+a
+{
+    color: white;
+    margin-left: 300px;
+    text-decoration: none;
+}
+.p3
+{
+  padding: 5px;
+width: 400px;
+height: 350px;
+background-color: #0A2653;
+color: white;
+  margin-top: 50px;
+}
+.me
+{
+    box-shadow: 5px 5px 15px white;
+}
+a:hover
+{
+    font-size: 40px;
+}
 </style>
 </head>
 <body>
@@ -98,7 +115,7 @@ ul
 <h2>PROFILE</h2>
 
 <p> Looking for a challenging role in a reputable organization to utilize my technical, database, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.</p><br>
-<h3>ABOUT ME</h3>
+<h3>PERSONAL INFORMATION</h3>
  <table>
      <tr>
          <td>Name</td>
@@ -113,7 +130,7 @@ ul
          <td><b>FEMALE</b></td>
      </tr>
       <tr>
-         <td>Nationaly</td>
+         <td>Nationality</td>
          <td><b>INDIAN</b></td>
      </tr>
       <tr>
@@ -125,35 +142,46 @@ ul
          <td><b>SATHEESAN S</b></td>
      </tr>
  </table>
-<p><img src="image/call'.png" id="icons">&nbsp;&nbsp;  8606413758<br>
-<img src="image/maill.jpg" id="icons">&nbsp;&nbsp;aparnaappuappu09@gmail.com<br>
-<img src="image/locaa.jpg" id="icons">&nbsp;&nbsp;SanjuLal Bhavan Punnavilakam Ariyottukonam Andoorkonam <br>&Trivandrum,Kerala-695584<br>
-</p>
+ <h3>CONTACT INFORMATION</h3>
+<table>
+    <tr>
+        <td><img src="image/call'.png" id="icons"></td>
+        <td>8606413758</td>
+    </tr>
+    <tr>
+        <td><img src="image/maill.jpg" id="icons"></td>
+        <td>aparnaappuappu09@gamil.com</td>
+    </tr>
+    <tr>
+        <td><img src="image/locaa.jpg" id="icons"></td>
+        <td>SanjuLal Bhavan Punnavilakam Ariyottukonam Andoorkonam Trivandrum Kerala-695584</td>
+    </tr>
+</table>
 </div>
 <div class="p2">
-<h1><U><a href="Aparna Resume.html">
-APARNA S </a></U></h1>
-<h3 class="h3"><u>Skills</u></h3>
+    <h1><a href="index.html">APARNA S</a></h1><hr>
+<h3 class="h3"><b>SKILLS</b></h3>
     <ul>
-        <li class="color">Communication</li>
-        <li class="color">Problem Solving</li>
-        <li class="color">Time Management</li>
-        <li class="color">Listener</li>
-        <li class="color">Ms Word</li>
-        <li class="color">Ms Excel</li>
-        <li class="color">HTML</li>
-        <li class="color">Accounting</li>
-        <li class="color">Design</li>
-        <li class="color">Javascript</li>
+        <li class="color"><b>Communication</b></li>
+        <li class="color"><b>Problem Solving</b></li>
+        <li class="color"><b>Time Management</b></li>
+        <li class="color"><b>Listener</b></li>
+        <li class="color"><b>Ms Word</b></li>
+        <li class="color"><b>Ms Excel</b></li>
+        <li class="color"><b>HTML</b></li>
+        <li class="color"><b>Accounting</b></li>
+        <li class="color"><b>Design</b></li>
+        <li class="color"><b>Javascript</b></li>
     </ul>
-
-<h3><u>EDUCATION</u></h3>
+    <div class="p3">
+<h3><b>EDUCATION</b></h3>
+<dl>
 <dt>ADIT</dt>
             <dd>
                 NSTI(W)Kazhakkuttom
                 2022-2024
-            </dd>
-    <dl>
+            </dd><br>
+   
         <dt>GRADUATION</dt>
             <dd>
                UNIVERSITY OF KERALA 
@@ -178,6 +206,7 @@ APARNA S </a></U></h1>
                 2016-2017
             </dd>
         </dl><br>
+    </div>
 </div>
 </div>
 </body>
